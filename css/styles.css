@@ -1,0 +1,187 @@
+/* Full height with no margin. Background is set to a gradient and fills the whole space with no repeats*/
+html {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(#4A8F9F, #0A2B4C);
+    background-repeat: no-repeat;       
+    background-attachment: fixed;      
+    background-size: cover; 
+}
+
+/* Spacing for heading and paragraphs */
+h1, h2, h3, h4, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header 1 style and formatting, with a line under*/
+h1 {
+    font-family: aktiv-grotesk, sans-serif;
+    letter-spacing: 0.15em;
+    font-size: 28px;
+    padding-bottom: .15em;
+    border-bottom: 1px solid gray;
+}
+
+/* Header 2 style and formatting */
+h2 {
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.05;
+    margin-bottom: 0.2em;
+}
+
+/* Header 3 style and formatting */
+h3 {
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 26px;
+}
+
+/* Header 4 style and formatting */
+h4 {
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 24px;
+}
+
+/* Header 5 style and formatting */
+h5 {
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 22px;
+    margin-bottom: 0.1em;
+    margin-top: 0.5em;
+}
+
+/* Header 6 style and formatting */
+h6 {
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 20px;
+    margin-bottom: 0.1em;
+    margin-top: 0.75em;
+    color: rgb(102, 100, 100);
+}
+
+/* Body style and formatting */
+body {
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-size: 18px;
+    background: white;
+    width:50%;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2em 4em 2em;
+    line-height: 1.8;
+}
+
+/* Strong formatting and style for more emphasis compared to bold */ 
+strong {
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-size: 24px;
+}
+
+/* Aligns text to the center */
+.center {
+    text-align: center;
+}
+
+/* Spacing between paragraphs */
+p {
+    margin-bottom: 0.75em;
+}
+
+/* Floats an element with fixed width for placement to the right */
+.right-block {
+    float: right;
+    width: 15em;   
+}
+
+/* Floats an element to the right, with margin for spacing */
+.flowRight {
+	float: right;
+	margin-left: 5px;
+}
+
+/* Floats an element to the left, with margin for spacing */
+.flowLeft {
+	float: left;
+	margin-right: 5px;
+}
+
+/* Styles an image to have a rounded border around an image */
+img {
+    border: 5px solid #B3C7D6;
+    border-radius: 25px;
+}
+
+/* Styles a table to have a rounded border around a table */
+table {
+    border: 3px solid #B3C7D6;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* General table styling and formatting */
+tr {
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-size: 14px;
+}
+
+td {
+    border-bottom: 1px solid #B3C7D6;
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-size: 14px;
+}
+
+/* Colors for links, and when hovering over */
+a {
+	color: #587a72;
+}
+
+a:hover {
+	color: #49665F;
+}
+
+/* Style and formatting for captions under images */
+.picture-caption {
+    font-family: "Menlo", "Monaco", monospace;
+    font-style: normal;
+	font-size: 14px;
+}
+
+/* Adds a margin for videos at the bottom */
+.video-section {
+    margin-bottom: 2em;
+}
+
+/* Formats text to small size with contrasting colors as the background. Used for additional info that relates back to the main topic */
+.text-block {
+    font-family: "Menlo", "Monaco", monospace;
+    font-style: normal;
+	font-size: 14px;
+	color: white;
+	padding: .5em 1em;
+	border-left: 1em solid #EBC8A2;
+	background: #B5825A;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	width: 80%;
+    overflow: auto;
+    clear: left;
+    margin-top: 0.5em;
+}
+
+/* Formatting for numbered lists */
+ol {
+    margin-top: 0.5em;
+}
+
+/* Centers figures and text formatting */
+figure {
+    text-align: center;
+    font-size: 14px;
+}
